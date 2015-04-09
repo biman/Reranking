@@ -9,6 +9,7 @@ The options are: -l -1 -t -0.875 -s -0.58 -n 1.042 -u -6.6 to get the best perfo
 compute-bleu: computes accuracy on outputs sentences from rerank and pro.
 
 output: results from pro.py. Use as: ./compute-bleu < output
+
 5features_manual: results from rerank_5feat.py with given weights. Use as the file output.
 
 bleu_smooth and bleu: compute BLEU+1 and BLEU scores respectively. Used by pro.py and compute-bleu respectively.
